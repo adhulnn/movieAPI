@@ -1,0 +1,22 @@
+API Planning:
+
+1.to get all movie list
+    url:127.0.0.1:8000/movies
+    Method:GET
+    response:Movie list
+2.to get a specific movie details
+    url:127.0.0.1:8000/movies/1
+    Method:GET
+    response:a specific movie
+3.to add a new movie
+    url:127.0.0.1:8000/movies
+    Method:POST
+    data:{
+        "name":"The Avengers",
+        "year":2012,
+        "director":"Joss Whedon",
+        "genere":"Adventure/Action"
+    }
+    response:Updated Movie list
+
+
